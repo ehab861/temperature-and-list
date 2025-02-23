@@ -1,0 +1,10 @@
+temp = int(input("how is the weather today ? "))
+if temp >= 30:
+    print ("it's a hot day . stay hybrated")
+elif temp >= 20 or temp == 29:
+    print("it's a warm day. enjoy the weather")
+elif temp >= 10 or temp == 19:
+    print("it's a cool day . wear a jacket")
+else:
+    print("it's a cold day . saty warm!")
+
